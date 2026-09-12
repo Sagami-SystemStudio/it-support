@@ -32,3 +32,7 @@ FV・共感・解決策・料金比較・AI伴走・対象企業・最終CTAの�
 
 - Tailwind CSS CDN: https://tailwindcss.com/docs/installation/play-cdn
 - 中小企業庁: https://www.chusho.meti.go.jp/koukai/hojyokin/kobo/2026/260310001.html
+
+## デザイン反映
+
+DESIGN.md の Precision Kiosk Blue をLP用に反映。濃紺・インディゴ・段階的な青系背景、12pxカード、8pxボタン、64px以上の主要操作、Interの等幅数字、Noto Sans JPの見出しを採用しています。既存の図とPDFは内容・配色を保持しています。キオスク専用の時計・スキャナー・テンキーはLPの機能には追加していません。
