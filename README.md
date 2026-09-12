@@ -2,12 +2,12 @@
 
 `dist/index.html` 1ファイルで完結する、HTML / Tailwind CSS CDN のレスポンシブLPです。
 CSS・JavaScript・ダウンロード用PDFはすべてHTMLに内包しています。
-画像は説明付きの `https://placehold.co/600x400` 系URLを指定しています。
+ヒーローには生成したサポート風景の画像、各セクションには日本語の図を埋め込んでいます。
 
 ## 表示
 
 `dist/index.html` をブラウザーで開いてください。
-Tailwind CSS CDN・Google Fonts・プレースホルダー画像の読み込みにはインターネット接続が必要です。
+Tailwind CSS CDN・Google Fonts の読み込みにはインターネット接続が必要です。
 ローカルプレビューは `node preview.cjs` → http://127.0.0.1:4173 です。
 
 ## 変更箇所
