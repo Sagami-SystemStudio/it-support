@@ -210,6 +210,9 @@ dialog h2{font-size:1.5rem;line-height:1.4;font-weight:600;color:var(--navy)}
 .solution-card:first-child .card-top{justify-content:space-between}
 
 .hands-on-icon{width:4rem;height:4rem;flex-shrink:0}.hands-on-icon img{display:block;width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}
+@media (hover:hover){.solution-card .hands-on-icon{transform-origin:center;will-change:transform}.solution-card .hands-on-icon:hover{animation:solution-icon-wiggle .55s ease-in-out infinite}}
+@keyframes solution-icon-wiggle{0%,100%{transform:scale(1.08) rotate(0)}25%{transform:scale(1.12) rotate(-3deg)}50%{transform:scale(1.12) rotate(3deg)}75%{transform:scale(1.1) rotate(-2deg)}}
+@media (prefers-reduced-motion:reduce){.solution-card .hands-on-icon:hover{animation:none;transform:scale(1.06)}}
 </style>
   
 </head>
