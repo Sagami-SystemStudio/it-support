@@ -1,8 +1,14 @@
 # 街の情シス LP
 
-`dist/index.html` 1ファイルで完結する、HTML / Tailwind CSS CDN のレスポンシブLPです。
-CSS・JavaScript・ダウンロード用PDFはすべてHTMLに内包しています。
-ヒーローには生成したサポート風景の画像、各セクションには日本語の図を埋め込んでいます。
+HTML / Tailwind CSS CDN のレスポンシブLPです。公開用ファイルは `dist` 配下に整理しています。
+
+- `dist/index.html`: ページのHTML
+- `dist/css/style.css`: カスタムスタイル
+- `dist/js/app.js`: メニュー、ダイアログ、アニメーション等のJavaScript
+- `dist/images/`: ヒーロー画像、図、ダウンロード用PDF
+- `dist/favicon.ico` / `dist/robots.txt`: 公開用の補助ファイル
+
+ヒーローには生成したサポート風景の画像、各セクションには日本語の図を使用しています。
 
 ## 表示
 
